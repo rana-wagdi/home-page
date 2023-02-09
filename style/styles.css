@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "myFirstFont";
+}
+.container {
+  padding: 0 5rem;
+}
+:root {
+  --green: #1d9798;
+  --white: #ffffff;
+  --orange: #f1b618;
+}
+@font-face {
+  font-family: "myFirstFont";
+  src: url("../Fonts/RotisSansSerifStd-Bold.otf");
+}
+@font-face {
+  font-family: "myLightFont";
+  src: url("../Fonts/RotisSansSerifStd-Light.otf");
+}
+
+/* header Section start */
+.header__items {
+  background-color: var(--green);
+  color: var(--white);
+}
+.header_content {
+  display: flex;
+  justify-content: space-between;
+}
+.follow_icon {
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+}
+.lang {
+  font-size: 1.3rem;
+  background-color: #4aacac;
+  padding: 0 0.4rem;
+}
+.socila_icon {
+  color: #fff;
+  margin-left: 0.5rem;
+  font-size: 0.9rem;
+}
+.header_content a {
+  text-decoration: none;
+}
+/* ////nav_items//// */
+.nav__items {
+  display: flex;
+  justify-content: space-between;
+}
+.nav__links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav__links li {
+  display: inline-block;
+  margin-left: 1rem;
+}
+.nav__links li a {
+  text-decoration: none;
+  color: var(--green);
+}
+.active {
+  color: var(--orange) !important;
+}
+.logo {
+  margin: 0.5rem auto;
+}
+.custom-select select {
+  border: none;
+  color: var(--green);
+}
+
+/* intro Section  */
+.intro_title {
+  position: absolute;
+  /* left: 0; */
+  /* top: 350px; */
+  z-index: 11111;
+  /* float: right; */
+  right: 160px;
+  margin-top: -12rem;
+  color: var(--white);
+}
+.intro_title p {
+  font-family: myLightFont;
+  font-size: 2.1rem;
+  letter-spacing: 0.2rem;
+  font-weight: 100;
+}
+.intro_title h1 {
+  font-size: 4rem;
+}
+
+/* latestNews Section */
+.line {
+  width: 15%;
+  height: 5px;
+  display: block;
+  background-color: var(--orange);
+}
+.latestNews {
+  background-color: var(--green);
+  margin-top: -0.3rem;
+  color: var(--white);
+}
+.latestNews__items {
+  display: grid;
+  grid-template-columns: 75% 25%;
+}
+.latestNews__header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.latestNews__header p{
+font-family: myLightFont;
+  font-size: 1.7rem;
+}
+.latestNews__header h2{
+  font-size: 3rem;
+}
+.img_covid {
+  margin-top: -0.3rem;
+}
