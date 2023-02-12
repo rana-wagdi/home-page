@@ -161,7 +161,7 @@
   grid-template-columns: repeat(3, 1fr);
   padding: 0 1rem 0 5rem;
   /* column-gap: 1rem; */
-  margin-top: 2.5rem;
+  margin: 2.5rem auto;
 }
 .latestNews__items_card {
   padding: 0 0.5rem;
@@ -185,3 +185,143 @@
   margin-right: 0.5rem;
   font-weight: 100;
 }
+
+/* research section */
+.research {
+  background-color: #f7f8fa;
+}
+.big_line {
+  width: 25%;
+  height: 5px;
+  display: block;
+  background-color: var(--orange);
+}
+.research_header {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem auto;
+}
+.research_header h1 {
+  font-size: 2.5rem;
+  color: var(--green);
+}
+.research_header button {
+  background-color: var(--orange);
+  border: none;
+  margin-top: 2rem;
+  padding: 0.7rem 1.8rem;
+  color: var(--white);
+  border-radius: 3px;
+  cursor: pointer;
+}
+.research__items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-bottom: 2rem;
+}
+.research_img {
+  float: left;
+}
+.reserch__item {
+  background-color: var(--white);
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+.reserch__item__content {
+  margin-left: 1rem;
+  display: inline-block;
+  margin-top: 2rem;
+  color: var(--green);
+}
+.reserch__item__content p {
+  font-family: myItalicFont;
+  margin: 0.5rem auto;
+}
+.calender_resarch_icon {
+  color: var(--orange);
+  margin-right: 0.5rem;
+}
+
+/* facilities section  */
+.facilities{
+  background-image: url(../assets/Images/FacilitiesAndResources/BG.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--white);
+}
+.facilities_header {
+  margin: 2rem auto;
+}
+.facilities_header h1{
+  font-size: 2.5rem;
+}
+.facilities__items{
+  display: grid;
+  grid-template-columns: repeat(2 , 1fr);
+}
+.facilities__items button{
+  background-color: var(--orange);
+  border: none;
+  margin-top: 2rem;
+  padding: 0.7rem 1.8rem;
+  color: var(--white);
+  border-radius: 3px;
+  cursor: pointer;
+}
+.facilities__item_content{
+  display: flex;
+justify-content: space-between;
+}
+.facilities__item_text{
+  /* font-family: myLightFont; */
+  opacity: .7;
+  line-height: 1.6rem;
+}
+.facilities__item_content img{
+  /* margin-right: 1rem; */
+}
+.facilities__item_content p{
+  margin: 1rem .5rem;
+}
+.arrow_icon{
+  color: var(--orange);
+}
+
+/* publications Section  */
+.puplication__header{
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem auto;
+}
+.puplication__header h1{
+  font-size: 2.5rem;
+  color: var(--green);
+}
+.puplication__header button{
+  background-color: var(--orange);
+  border: none;
+  /* margin-top: 2rem; */
+  padding: 0.7rem 1.8rem;
+  color: var(--white);
+  border-radius: 3px;
+  cursor: pointer;
+}
+.puplication_items{
+  /* display: grid;
+  grid-template-columns:  repeat(4 , 1fr); */
+  display: flex;
+  justify-content: space-between;
+}
+.puplication_item{
+  padding: 0 .5rem 2rem;
+  border-left: 1px solid var(--green);
+  color: var(--green);
+}
+
+
+/* bio section  */
+.bio{
+  background-image: url(../assets/Images/Bio/Bg.jpg);
+}
+
